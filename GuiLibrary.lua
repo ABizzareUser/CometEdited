@@ -1,5 +1,5 @@
 repeat task.wait() until game:IsLoaded()
-local array = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ham-135/CometV2/main/ArrayList.lua"))()
+local array = loadstring(game:HttpGet("https://raw.githubusercontent.com/eLeCtRaDoMiNuS/CustomCometV2/main/ArrayList.lua"))()
 local lib = {
     ["Rainbow"] = false,
     ["Notifications"] = false,
