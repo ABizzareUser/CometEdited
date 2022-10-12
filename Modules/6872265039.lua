@@ -206,7 +206,7 @@ end)
 task.delay(0.5, function()
     CreateNotification("Comet V2","Comet V2 Loaded! Hope you enjoy! discord.gg/fJNbvucPS5",15)
     game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
-        Text = "Comet V2 Loaded!\nMade by Ham135 and Car (Also on YT)!\ndiscord.gg/fJNbvucPS5",
+        Text = "Comet V2 Loaded!\nMade by Ham135 and Car and edited by npm (Also on YT)!\ndiscord.gg/fJNbvucPS5",
         Color = Color3.fromRGB(255,65,65),
         Font = Enum.Font.SourceSansBold
     })
