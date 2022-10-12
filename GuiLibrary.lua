@@ -1,7 +1,7 @@
 repeat task.wait() until game:IsLoaded()
 local array = loadstring(game:HttpGet("https://raw.githubusercontent.com/eLeCtRaDoMiNuS/CustomCometV2/main/ArrayList.lua"))()
 local lib = {
-    ["Rainbow"] = true,
+    ["Rainbow"] = false,
     ["Notifications"] = false,
     ["Sounds"] = true,
     ["GuiKeybind"] = "RightShift",
