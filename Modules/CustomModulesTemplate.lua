@@ -1,1 +1,1 @@
---soon
+pcall(loadstring(readfile("rektsky/scripts")))
