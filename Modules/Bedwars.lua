@@ -1339,6 +1339,16 @@ runcode(function()
     })
 end)
 
+runcode(function()
+    local dinoexploit = Tabs["Blatant"]:CreateToggle({
+        ["Name"] = "DinoExploit",
+        ["Callback"] = function(Callback)
+            game:GetService("ReplicatedStorage"):FindFirstChild("events-@easy-games/game-core:shared/game-core-networking@getEvents.Events").useAbility:FireServer("dino_charge")
+            CreateNotification("Comet V2","You Need to wait 60 seconds to use it again",15)
+        end
+    })
+end)
+
 task.delay(0.5, function()
     CreateNotification("Comet V2","Comet V2 Loaded! Hope you enjoy! discord.gg/fJNbvucPS5",15)
     game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
