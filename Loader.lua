@@ -25,9 +25,9 @@ elseif placeid == 6872265039 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/eLeCtRaDoMiNuS/CustomCometV2/main/Modules/6872265039.lua"))()
     end
 else
-    if betterisfile("CometV2/Modules/Universal.lua") then
-        loadstring(readfile("CometV2/Modules/Universal.lua"))()
+    if betterisfile("CometV2/Modules/CustomModulesTemplate.lua") then
+        loadstring(readfile("CometV2/Modules/CustomModulesTemplate.lua"))()
     else
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/eLeCtRaDoMiNuS/CustomCometV2/main/Modules/Universal.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/eLeCtRaDoMiNuS/CustomCometV2/main/Modules/CustomModulesTemplate.lua"))()
     end
 end
