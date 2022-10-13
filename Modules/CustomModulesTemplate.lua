@@ -1,3 +1,3 @@
 --basic
 
-pcall(loadstring(readfile("rektsky/custom.lua")))
+pcall(loadstring(readfile("rektsky/scripts/custom.lua")))
