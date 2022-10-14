@@ -2,7 +2,7 @@ repeat task.wait() until game:IsLoaded()
 task.wait(0.5)
 local BwGames = {6872274481,8444591321,8560631822}
 if not table.find(BwGames,game.PlaceId) then
-    warn("[CometV2] Game not Supported!")
+    warn("[CometEdited] Game not Supported!")
     return
 end
 shared["CometConfigs"] = {
@@ -10,7 +10,7 @@ shared["CometConfigs"] = {
     Color = Color3.fromRGB(255,65,65),
     Enabled = false
 }
-local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/eLeCtRaDoMiNuS/CustomCometV2/main/GuiLibrary.lua"))()
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/ABizzareUser/CometEdited/main/GuiLibrary.lua"))()
 local getasset = getsynasset or getcustomasset
 local ScreenGuitwo = game:GetService("CoreGui").RektskyNotificationGui
 local lplr = game:GetService("Players").LocalPlayer
